@@ -1,0 +1,27 @@
+{
+  "name": "reactjs-gettingstarted",
+  "version": "1.0.0",
+  "description": "A kickstart to use reactjs for the beginners, i will be keep posting stuffs to my github.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinagamvasubabu/reactjs-gettingstarted.git"
+  },
+  "keywords": [
+    "reactjs-basics",
+    "reactjs",
+    "reactjs-examples",
+    "introduction",
+    "to",
+    "reactjs"
+  ],
+  "author": "vasubabu jinagam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinagamvasubabu/reactjs-gettingstarted/issues"
+  },
+  "homepage": "https://github.com/jinagamvasubabu/reactjs-gettingstarted#readme"
+}
