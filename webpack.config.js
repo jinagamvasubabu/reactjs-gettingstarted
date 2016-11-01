@@ -5,13 +5,14 @@ module.exports = {
   entry: [
     'webpack-dev-server/client?http://localhost:3000',
     'webpack/hot/only-dev-server',
-    './app/index.jsx'
+    './app/stargame/Game.jsx'
   ],
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
     publicPath: '/dist/'
   },
+  devtool: 'inline-source-map',
   plugins: [
     new webpack.HotModuleReplacementPlugin()
   ],
