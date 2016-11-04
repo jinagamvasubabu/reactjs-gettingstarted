@@ -5,7 +5,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <Clock />
+            <Clock name={'Hello IG'}/>
         )
     }
 

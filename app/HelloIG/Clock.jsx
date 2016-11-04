@@ -19,11 +19,6 @@ class Clock extends React.Component {
        }));
   }
 
-    componentWillUnMount() {
-        clearInterval(this.timerID);
-    }
-
-
   tick(){    
       this.setState((prevState, props) => ({
           timeStamp: new Date().toLocaleTimeString() 
@@ -33,11 +28,19 @@ class Clock extends React.Component {
   render() {
       return(
         <div>  
-            <h1> Hello IG </h1>
+            <h1>{this.props.name}</h1>
             <h3> {this.state.timeStamp} </h3>  
         </div>
       );
   }
+}
+
+Clock.propTypes = {
+    name: React.PropTypes.string.isRequired
+}
+
+Clock.defaultProps = {
+    name: 'Hello IG'
 }
 
 export default Clock;
